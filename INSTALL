@@ -1,0 +1,7 @@
+Quick install
+
+Make sure graphviz binaries are installed.
+Copy/Rename config.dist.php to config.php and set variables. (make sure output directories are writable from httpd)
+
+
+

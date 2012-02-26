@@ -1,0 +1,7 @@
+This script takes the output of the cisco command "show ip ospf database network"
+and generates a topology map using graphviz. Dark blue boxes are routers with 
+their router ID, light blue boxes are the interconnecting networks.
+
+The script is a little raw (could use more error checking etc) Feel free to improve it!
+
+Thomas St.Pierre - thomas@samoht.ca
