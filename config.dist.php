@@ -1,4 +1,4 @@
-<?
+<?php
 
 
 #tmpfile is file used for generating graph data. it's gets deleted once the graph is created

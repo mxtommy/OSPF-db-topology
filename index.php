@@ -16,9 +16,11 @@
 
 // OSPF Database visualization by Thomas St.Pierre
 
+ini_set('display_errors', 1); 
+error_reporting(E_ALL);
+
 include("iplib.php");
 include("config.php");
-
 
 $debug = 1;
 
@@ -60,7 +62,7 @@ if ($_REQUEST['layout'] == 'fdp')
 } 
 
 
-$ospf_router = explode("\n", $_REQUEST['ospf_router']);
+//$ospf_router = explode("\n", $_REQUEST['ospf_router']);
 $ospf_network = explode("\n\r", $_REQUEST['ospf_network']);
 $current_link_type = "";
 $links = array();
